@@ -1,7 +1,4 @@
 # ML_Project
-
-一个按照课程统一工程框架整理的机器学习实验项目。当前版本在尽量复用你原有实验代码、数据与结果文件的前提下，补齐了统一目录、统一入口 `main.py`、标准化预处理模块、算法模块说明、`requirements.txt`、`.gitignore` 与 GitHub 展示用 `README.md`。
-
 ## 1. Project Overview
 
 本项目聚合了以下课程实验方向：
