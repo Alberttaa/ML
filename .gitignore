@@ -9,6 +9,7 @@ venv/
 # Local caches
 *.log
 *.tmp
+backup/
 
 # Large datasets
 data/mnist/
