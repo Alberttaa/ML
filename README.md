@@ -113,39 +113,8 @@ python main.py --algo ann --data cifar10 --process train --epochs 5 --batch-size
 算法_数据集_日期.pth
 ```
 
-## 8. Legacy Files
-
-为了不覆盖你原来的实验材料，本次整理做了两层保留：
-
-1. `backup/original_20260620/` 保存了本次整理前的 `main.py` 与 `src/` 备份；
-2. 原有的旧实验脚本会保留在 `src/legacy/` 中，方便回看和对照。
-
-## 9. GitHub Upload Notes
-
-推荐仓库名：`ML_Project`
-
-建议上传的内容：
-
-- `src/`
-- `main.py`
-- `README.md`
-- `requirements.txt`
-- `.gitignore`
-- 小体积示例数据（如 `house`、`titanic`）
-- 课程报告需要展示的小体积结果图
-
-不建议直接上传的大文件：
-
-- `data/mnist/`
-- `data/cifar10/`
-- `data/cifar-10-batches-py/`
-- 过大的模型文件
-
-如果确实需要上传大文件，请使用 Git LFS，而不是直接推送导致失败。
-
-## 10. Attention
+## 8. Attention
 
 1. MNIST 与 CIFAR-10 默认规模较大，KNN/ANN 训练时建议先使用 `--max-train` 和 `--max-test` 做采样。
-2. Logistic / SVM 的图像任务当前按老师要求实现为 HOG 特征二分类。
+2. Logistic / SVM 的图像任务当前按要求实现为 HOG 特征二分类。
 3. `predict` 目前为了统一接口，默认复用测试集流程；如果后续你需要单独读入自定义文件预测，可以在现有框架上继续扩展。
-4. 如果你的 GitHub 远程仓库还没建好，请先创建仓库，再提供仓库地址用于推送。
