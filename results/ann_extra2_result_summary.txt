@@ -1,0 +1,13 @@
+ANN 附加题实验结果汇总
+==================================================
+
+一、不同激活函数对比
+sigmoid: train_acc=0.8230, test_acc=0.6792, train_loss=0.4181, test_loss=0.6027
+tanh: train_acc=0.9091, test_acc=0.7170, train_loss=0.2704, test_loss=0.6195
+relu: train_acc=0.9426, test_acc=0.6792, train_loss=0.1427, test_loss=1.5429
+leaky_relu: train_acc=0.9378, test_acc=0.6981, train_loss=0.1495, test_loss=1.5809
+
+二、ReLU 不同学习率下的失活神经元数量
+lr=0.001: 各层失活数量=[0, 5, 5, 6, 5], 总失活数量=21
+lr=0.01: 各层失活数量=[0, 17, 6, 11, 7], 总失活数量=41
+lr=0.1: 各层失活数量=[5, 60, 26, 29, 15], 总失活数量=135

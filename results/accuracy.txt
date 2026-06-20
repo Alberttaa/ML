@@ -1,0 +1,54 @@
+===== Linear Regression | House =====
+MSE: 328972039.0437
+RMSE: 18137.5864
+MAE: 14745.9384
+R2: 0.9631
+
+===== Logistic Regression | titanic =====
+test_accuracy: 0.7481
+train_samples: 1047
+test_samples: 262
+
+===== KNN | titanic =====
+best_k: 5
+test_accuracy: 0.7061
+train_samples: 1047
+test_samples: 262
+
+===== ANN | Titanic =====
+test_accuracy: 0.6947
+train_samples: 1047
+test_samples: 262
+
+===== Linear Regression Test | House =====
+MSE: 328972039.0437
+RMSE: 18137.5864
+MAE: 14745.9384
+R2: 0.9631
+
+===== Logistic Regression | mnist =====
+test_accuracy: 0.9833
+train_samples: 200
+test_samples: 60
+selected_classes: 0, 1
+
+===== SVM | mnist =====
+test_accuracy: 0.9833
+train_samples: 200
+test_samples: 60
+selected_classes: 0, 1
+
+===== ANN | CIFAR10 =====
+final_accuracy: 0.1167
+epochs: 1
+train_samples: 200
+test_samples: 60
+
+===== Logistic Regression Test | mnist =====
+model: logistic_mnist_20260620.pkl
+test_accuracy: 0.9833
+
+===== ANN Test | CIFAR10 =====
+model: ann_cifar10_20260620.pth
+test_accuracy: 0.1167
+
